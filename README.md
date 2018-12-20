@@ -2,12 +2,12 @@
 =================================================
 
 ## Project Name
-
+04-buffers
 ### Author: Student/Group Name
-
+Jacob Anderson
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
+* [repo](https://github.com/1anderson2jacob/04-buffers)
+* [travis]([![Build Status](https://www.travis-ci.com/1anderson2jacob/04-buffers.svg?branch=master)](https://www.travis-ci.com/1anderson2jacob/04-buffers))
 * [back-end](http://xyz.com)
 * [front-end](http://xyz.com)
 
