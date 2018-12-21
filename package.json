@@ -19,7 +19,14 @@
   },
   "homepage": "https://github.com/1anderson2jacob/04-buffers#readme",
   "dependencies": {
+    "buffer": "^5.2.1",
+    "buffer-concat": "^1.0.0",
+    "buffer-fill": "^1.0.0",
+    "buffer-slice": "0.0.1",
+    "concat": "^1.0.3",
     "eslint": "^5.10.0",
-    "jest": "^23.6.0"
+    "fill": "^0.6.2",
+    "jest": "^23.6.0",
+    "slice": "^1.0.0"
   }
 }
