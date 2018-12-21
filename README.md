@@ -5,6 +5,8 @@
 04-buffers
 ### Author: Student/Group Name
 Jacob Anderson
+Hannah Ingham
+Katie Heath
 ### Links and Resources
 * [repo](https://github.com/1anderson2jacob/04-buffers)
 * [travis]([![Build Status](https://www.travis-ci.com/1anderson2jacob/04-buffers.svg?branch=master)](https://www.travis-ci.com/1anderson2jacob/04-buffers))
