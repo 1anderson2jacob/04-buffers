@@ -3,6 +3,19 @@
 const fs = require('fs');
 var Buffer = require('buffer/').Buffer;
 
+let str = `'use strict';
+let arr = ['bob','ann','paul'];
+arr.forEach(name => {
+  console.log(name);
+});`;
+
+let buffer = Buffer.alloc(str.length);
+buffer.fill(str);
+
+fs.writeFile('loop.js', buffer, function (err) {
+  if (err) throw err;
+});
+
 let text = '';
 
 let setPromise = new Promise(function(resolve, reject) {
