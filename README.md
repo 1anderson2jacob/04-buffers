@@ -29,9 +29,9 @@ Usage Notes or examples
 * `MONGODB_URI` - URL to the running mongo instance/db
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
+* `node index.html`
+* Endpoint: `pair-programming.html`
+  * Creates a file
 * Endpoint: `/bing/zing/`
   * Returns a JSON object with xyz in it.
 

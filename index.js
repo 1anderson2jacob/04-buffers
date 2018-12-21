@@ -61,6 +61,9 @@ setPromise.then((data, text) => {
     let len = finalBuffer.length + bufArray[i].length;
     finalBuffer = Buffer.concat([finalBuffer, bufArray[i]], len);
   }
+  
+  finalBuffer = Buffer.concat([htmlArticle, finalBuffer, htmlArticleEnd], (htmlArticle.length + finalBuffer.length + htmlArticleEnd.length));
+
   return finalBuffer;
 
 }).then((buffer) => {
